@@ -13,6 +13,8 @@ public class CourseDTO {
     private String name;
     private String category;
     private int rating;
+
     private String description;
+
 
 }
