@@ -33,7 +33,7 @@ public class AddressDTO {
     private StudentDTO student;
 
     @JsonBackReference (value = "parent-address-reference") //default reference
-    private ParentDTO parent;
+    private ParentDTO parent;//  @JsonManagedReference(value = "parent-address-reference") in ParentDTO class
 
     @JsonBackReference (value = "teacher-address-reference")  //default reference
     private TeacherDTO teacher;
